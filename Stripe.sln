@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripe.PL", "Stripe.PL\Stripe.PL.csproj", "{EFC9793F-1093-4717-8838-E54DC80CACDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripe.BLL", "Stripe.BLL\Stripe.BLL.csproj", "{876E1E24-B79C-451C-A77E-3F937CDE7814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC9793F-1093-4717-8838-E54DC80CACDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC9793F-1093-4717-8838-E54DC80CACDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC9793F-1093-4717-8838-E54DC80CACDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC9793F-1093-4717-8838-E54DC80CACDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876E1E24-B79C-451C-A77E-3F937CDE7814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876E1E24-B79C-451C-A77E-3F937CDE7814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876E1E24-B79C-451C-A77E-3F937CDE7814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876E1E24-B79C-451C-A77E-3F937CDE7814}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CEB269C-F28C-4342-93F9-A8A2F72E4E7E}
+	EndGlobalSection
+EndGlobal
