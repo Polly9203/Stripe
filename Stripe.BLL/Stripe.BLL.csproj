@@ -11,4 +11,8 @@
     <PackageReference Include="Stripe.net" Version="41.26.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Stripe.DAL\Stripe.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
