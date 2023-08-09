@@ -25,9 +25,10 @@ namespace Stripe.PL.Controllers
             var json = await reader.ReadToEndAsync();
             try
             {
-                var stripeEvent = EventUtility.ConstructEvent(json, Request.Headers["Stripe-Signature"], "whsec_AuDVyP5kUaO0RbDxcjB2fnl6Zkc9tKYa");
+                var stripeEvent = EventUtility.ConstructEvent(json, Request.Headers[stripeSettings.Headers], stripeSettings.WebHookKey);
 
-                if (stripeEvent.Type == "customer.subscription.created")
+                if (stripeEvent.Type == Events.CustomerSubscriptionCreated)
+
                 {
                     await _webHookService.SubscriptionCreated(stripeEvent);
                 }

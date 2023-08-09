@@ -10,7 +10,7 @@ namespace Stripe.BLL.WebHooks
         public WebHookService(IOptions<StripeSettings> stripeSettings, IWebHooksRepository webHooksRepository) 
         {
             this.stripeSettings = stripeSettings.Value;
-            this._webHooksRepository = webHooksRepository ?? throw new ArgumentNullException(nameof(webHooksRepository));
+            _webHooksRepository = webHooksRepository ?? throw new ArgumentNullException(nameof(webHooksRepository));
         }
 
         public async Task SubscriptionCreated(Event stripeEvent)
